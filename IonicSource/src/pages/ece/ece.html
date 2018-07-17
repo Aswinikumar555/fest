@@ -1,0 +1,102 @@
+<!--
+  Generated template for the EcePage page.
+
+  See http://ionicframework.com/docs/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+
+<ion-header>
+  <ion-navbar text-center>
+    <ion-title>ECE</ion-title>
+  </ion-navbar>
+
+  <ion-toolbar >
+    <ion-segment [(ngModel)]="ece" color="dark">
+      <ion-segment-button value="Technical">
+      <h5 ion-text color="primary">Technical</h5>
+      </ion-segment-button>
+      <ion-segment-button value="Workshop">
+       <h5 ion-text color="primary">Workshop</h5>
+      </ion-segment-button>
+      <ion-segment-button value="Ppt">
+       <h5 ion-text color="primary">Ppt</h5>
+      </ion-segment-button>
+    </ion-segment>
+  </ion-toolbar>
+</ion-header>
+
+
+<br> <br> <br> <br> <br> <br>
+<ion-content style="background-image:url('assets/imgs/back.jpg');background-size:cover">
+   <div [ngSwitch]="ece">
+      <div *ngSwitchCase="'Technical'">
+          <ion-grid>
+              <ion-row>
+                <ion-col col-6>
+                    <ion-thumbnail item-start>
+                      <div class="chang"></div>
+                        <img src="assets/imgs/ardino.jpg" style="width: 100%;height: 200px;" (click)="arduino()">                      
+                        <div class="card-title">Arduino </div>
+                      </ion-thumbnail>
+                </ion-col>
+                <ion-col col-6>
+                    <ion-thumbnail item-start>
+                        <div class="chang1"></div>
+                        <img src="assets/imgs/circiut.jpg" style="width: 100%;height: 200px;"(click)="circuitrix()">
+                        <div class="card-title">Circuitrix</div>
+                      </ion-thumbnail>
+                </ion-col>
+              </ion-row>
+              <ion-row>
+                  <ion-col col-6>
+                      <ion-thumbnail item-start>
+                          <div class="chang2"></div>
+                        <img src="assets/imgs/technicalquiz.jpg" style="width: 100%;height: 200px;"(click)="tech()">
+                        <div class="card-title">Technicalquiz</div>
+                        </ion-thumbnail>
+                  </ion-col>
+                  <ion-col col-6>
+                      <ion-thumbnail item-start>
+                          <div class="chang3"></div>
+                          <img src="assets/imgs/hacking.jpg" style="width: 100%;height: 200px;"(click)="hack()">
+                          <div class="card-title">Hack</div>
+                        </ion-thumbnail>
+                  </ion-col>
+                </ion-row>
+            </ion-grid>
+
+      </div>
+      <div *ngSwitchCase="'Workshop'">
+       <ion-grid>
+          <ion-row>
+              <ion-col col-6>
+                  <ion-thumbnail item-start>
+                    <div class="chang4"></div>
+                    <img src="assets/imgs/pcb design.png" style="width: 100%;height: 200px;" (click)="PCB()">
+                    <div class="card-title">PCB Design</div>
+                    </ion-thumbnail>
+              </ion-col>
+              <ion-col col-6>
+                  <ion-thumbnail item-start>
+                    <div class="chang5"></div>
+                    <img src="assets/imgs/neural network.jpg" style="width: 100%;height: 200px;"(click)="NEURAL()">
+                    <div class="card-title">Neural Network</div>
+                    </ion-thumbnail>
+              </ion-col>
+            </ion-row>
+          </ion-grid>
+              
+
+      </div>
+      <div *ngSwitchCase="'Ppt'">
+          <div class="t">
+              <br><br>
+          1.Submit your ABSTRACT to the the mail:<a href="mailto:chandratripurana@gmail.com">chandratripurana@gmail.com</a>
+          <br> 
+          2.Make sure your abstract is 250 words or less<br> 
+          IMPORTANT DATES:
+          Abstract submissions due:  june 9, 2018
+          </div>
+      </div>
+      </div>
+    </ion-content>

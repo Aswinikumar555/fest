@@ -1,0 +1,22 @@
+page-aboutus {
+    .zest
+    {
+        text-align: justify;
+        color:black; 
+        font-family:Maiandra GD;
+        font-size: 20px;
+         
+    }
+    .back
+    {
+        background:url("../assets/imgs/b5.jpg");
+        background-repeat:repeat-y;
+        background-size:cover;
+        position:absolute;
+        opacity: 0.8;
+    }
+    p{
+        position: relative;
+    }   
+
+}

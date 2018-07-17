@@ -1,0 +1,79 @@
+<!--
+  Generated template for the EventdetailPage page.
+
+  See http://ionicframework.com/docs/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+
+<ion-header>
+    <ion-navbar>
+      <ion-title>
+        {{branchname}} EVENTS
+      </ion-title>
+    </ion-navbar>
+  </ion-header>
+  
+  <ion-content class="bg">
+  
+        <ion-card-content>
+        <ion-card>
+            <img style="width:800px; height:190px" src="{{imagepath}}"/>
+            <div class="card-title">{{eventname}}</div>
+          
+          </ion-card>
+       
+       <ion-card>
+        <ion-segment [(ngModel)]="items" color="dark" style="height:35px;background-color:rgb(66, 111, 235)" >
+          <ion-icon name="refersh"></ion-icon>
+          <ion-segment-button color="primary" value="About">
+            
+              <ion-icon name="document" ></ion-icon>
+              <label>ABOUT</label>
+              
+          
+          </ion-segment-button>
+          <ion-segment-button color="primary" value="Details">
+           <ion-icon name="star" ></ion-icon>
+           <label>DETAILS</label>
+          </ion-segment-button>
+  
+          <ion-segment-button color="primary" value="Timer">
+              <ion-icon name="clock" ></ion-icon>
+              <label>TIMER</label>    
+          </ion-segment-button>
+        </ion-segment>
+      </ion-card>
+      
+      <div [ngSwitch]="items">
+        <div *ngSwitchCase="'About'">
+          <div class="abc">
+          <p>{{description}}</p>
+        </div>
+        </div>
+        <div *ngSwitchCase="'Details'">
+          <div class="abc">
+          <p>
+            Student co-ordinator : {{Organizers}}<br>
+            Contact : {{Organizersnumber}} <br>
+            Mail : {{Organizersmail}} <br>
+            Registration fee per individual : {{RegistrationFee}} <br>
+            Team size : {{teamsize}} <br>
+          </p>
+        </div>
+        </div>
+  
+        <div *ngSwitchCase="'Timer'">
+          <div class="abc">
+          <p>
+            Time : {{time}}  <br>
+            Venue : {{venue}}
+        </p>
+        </div>
+        </div>
+        </div>
+    </ion-card-content>
+    <div style="margin-left:48px; margin-bottom:10px">
+        <button ion-button color="primary" (click) = "eventRegister()">Register</button>&emsp;&emsp;
+        <button ion-button color="primary" (click) = "teamRegister()">Team Register</button>
+        </div>
+  </ion-content>

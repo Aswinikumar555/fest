@@ -1,0 +1,40 @@
+<!--
+  Generated template for the RetrieveEventPage page.
+
+  See http://ionicframework.com/docs/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+<ion-header>
+
+  <ion-navbar>
+    <ion-title>RetrieveEvent</ion-title>
+  </ion-navbar>
+
+</ion-header>
+
+
+<ion-content padding>
+  <ion-list>
+    <ion-item>
+      <ion-label color="primary" floating>Department</ion-label>
+      <ion-input [(ngModel)]="branchname"></ion-input>
+      <!-- <ion-select [(ngModel)]="eventname" onselect="getEvents(value)">
+          <ion-option value="1">CSE</ion-option>
+          <ion-option value="2">ECE</ion-option>
+          <ion-option value="3">Civil</ion-option>
+          <ion-option value="4">Mech</ion-option>
+          <ion-option value="5">EEE</ion-option>
+          <ion-option value="6">IT</ion-option>
+        </ion-select> -->
+    </ion-item>
+    <ion-item>
+        <ion-label color="primary" floating >Event</ion-label>
+        <!-- <ion-select [(ngModel)]="eventname" (ionChange)="onChange(membership)">
+            <ion-option value="1">{{event}}</ion-option>
+          </ion-select> -->
+        <ion-input [(ngModel)]="eventname"></ion-input>
+      </ion-item>
+  </ion-list>
+  
+  <button ion-button round (click)="sub()">submit</button>
+</ion-content>

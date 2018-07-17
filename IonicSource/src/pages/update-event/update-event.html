@@ -1,0 +1,67 @@
+<!--
+  Generated template for the UpdateEventPage page.
+
+  See http://ionicframework.com/docs/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+<ion-header>
+
+  <ion-navbar>
+    <ion-title>UpdateEvent</ion-title>
+  </ion-navbar>
+
+</ion-header>
+
+
+<ion-content padding>
+  <ion-list>
+    <!-- <ion-item>
+      <ion-label color="primary" floating>Department</ion-label>
+      <ion-input [(ngModel)]="branchname"></ion-input>
+    </ion-item>
+    <ion-item>
+        <ion-label color="primary" floating >Event</ion-label>
+        <ion-input [(ngModel)]="eventname"></ion-input>
+      </ion-item> -->
+    <ion-item>
+      <div>
+        <p>Department</p><br>{{branchname}}<br><br>
+        <p>Event</p><br>{{eventname}}<br>
+      </div>
+    </ion-item>
+    <ion-item>
+      <ion-label color="primary" floating >Description</ion-label>
+      <ion-textarea [(ngModel)]="description"></ion-textarea>
+    </ion-item>
+    <ion-item>
+      <ion-label color="primary" floating >Time</ion-label>
+      <ion-input floating [(ngModel)]="time"></ion-input>
+    </ion-item>
+    <ion-item>
+      <ion-label color="primary"floating >venue</ion-label>
+      <ion-input floating [(ngModel)]="venue"></ion-input>
+    </ion-item>
+    <ion-item>
+      <ion-label color="primary" floating >RegistrationFee</ion-label>
+      <ion-input [(ngModel)]="RegistrationFee"></ion-input>
+    </ion-item>
+    <ion-item>
+      <ion-label color="primary" floating >Organizers</ion-label>
+      <ion-input [(ngModel)]="Organizers"></ion-input>
+    </ion-item>
+    <ion-item>
+      <ion-label color="primary" floating >Organizers-contact</ion-label>
+      <ion-input [(ngModel)]="Organizersnumber"></ion-input>
+    </ion-item>
+    <ion-item>
+      <ion-label color="primary" floating >Organizers-mail</ion-label>
+      <ion-input [(ngModel)]="Organizersmail"></ion-input>
+    </ion-item>
+    <ion-item>
+      <ion-label color="primary" floating >Team-Size</ion-label>
+      <ion-input [(ngModel)]="teamsize"></ion-input>
+    </ion-item>
+  <br>
+  <button ion-button round (click)="sub()">update</button>
+</ion-list>
+</ion-content>

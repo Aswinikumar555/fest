@@ -1,0 +1,207 @@
+db.events.insert({
+        "branchname" : "CSE",
+        "eventname" : "Machine Learning",
+        "description" : "The purpose of this course is to help you build your own Machine learning projects using python. Here’s what you’ll learn by hands-on sessions:Introduction to Machine Learning,Machine Learning Algorithms - Analysis,Introduction to Python Programming,Python Programming Session",
+       "time":"09-06-18 , 3:30PM",
+       "venue":"miracle",
+       "RegistrationFee":"1000/-",
+       "Organizers":"Pavan & Harshini",
+       "Organizersnumber":"7865592311",
+       "Organizersmail":"Pavan77@gmail.com",
+        "teamsize":"1",
+       });
+
+db.events.insert({
+        "branchname" : "CSE",
+        "eventname" : "Block Chain",
+        "description" : "Blockchain is a leading software platform for digital assets. It is a data structure used to create a decentralized ledger and is composed of blocks in a serialized manner.This technology is implemented in various real-time applications. Cryptocurrencies,Bitcoin and others such as Ethereum,digital identity, smart contracts, digital voting, are examples of the blockchain paradigm.This workshop is planned by considering the growing importance of Blockchain Technology in real world applications:",
+       "time":"08-06-18 , 10:30PM",
+       "venue":"miracle",
+       "RegistrationFee":"1000/-",
+       "Organizers":"Abhishek & Navya",
+       "Organizersnumber":"7864292311",
+       "Organizersmail":"Abhishek77@gmail.com",
+       "teamsize":"1",
+       });
+
+db.events.insert({
+        "branchname" : "CSE",
+        "eventname" : "Data Warehousing & Data Mining",
+        "description" : "Collections of databases that work together are called data warehouses. This makes it possible to integrate data from multiple databases. Data mining is used to help individuals and organizations make better decisions. Data Warehousing:  A data warehouse is a collection of databases that work together. A data warehouse makes it possible to integrate data from multiple databases, which can give new insights into the data. Data Mining: Once all the data is stored and organized in databases, what's next? Many day-to-day operations are supported by databases. Data Mining is a Process of analyzing data and summarizing it to produce useful information.",                    
+       "time":"08-06-18 , 11:30AM",
+       "venue":"miracle",
+       "RegistrationFee":"1000/-",
+       "Organizers":"Vennala & Bharat",
+       "Organizersnumber":"7864552311",
+       "Organizersmail":"Bharat77@gmail.com",
+       "teamsize":"1",
+       });
+
+db.events.insert({
+        "branchname" : "ECE",
+        "eventname" : "Arduino",
+        "description" :"Arduino is a tool for the design and development of embedded computer systems, consisting of a simple open hardware design for a single-board microcontroller, with embedded I/O support and a standard programming language.The workshop will consist of Fundamentals of Programming Interactivity,Creative Coding and hardware interfacing using the kit(optional)",
+       "time":"08-06-18 , 12:30PM",
+       "venue":"miracle",
+       "RegistrationFee":"1000/-",
+       "Organizers":"arjun & Eswar",
+       "Organizersnumber":"7864792311",
+       "Organizersmail":"Arjun77@gmail.com",
+       "teamsize":"1", 
+   });
+
+db.events.insert({
+        "branchname" : "ECE",
+        "eventname" : "PCB Designing",
+        "description" : "A printed circuit board (PCB) mechanically supports and electrically connects electronic components using conductive tracks, pads and other features etched from copper sheets laminated onto a non-conductive substrate. Components capacitors, resistors or active devices are generally soldered on the PCB. Today, many of our daily appliances and equipment use electronics, sensors and sophisticated computer technologies. Circuit Designing & PCB Designing is an integral part of any Electronic Gadget or Robotics. ",
+       "time":"08-06-18 , 1:30PM",
+       "venue":"miracle",
+       "RegistrationFee":"1000/-",
+       "Organizers":"Pavan & Sourav",
+       "Organizersnumber":"7864892311",
+       "Organizersmail":"Pavan77@gmail.com",
+        "teamsize":"1",
+       });
+
+db.events.insert({
+        "branchname" : "ECE",
+        "eventname" :"Neural Network",
+        "description" :"The objective of this hands-on workshop is to give insight to MATLAB for Artificial Neural Network & Fuzzy Logic and provide hands-on experience in selected applications. This leads to solve the complex and dynamic real time problems. This workshop provide s a vibrant opportunity for researchers and faculty members:",
+       "time":"08-06-18 , 3:30PM",
+       "venue":"miracle",
+       "RegistrationFee":"1000/-",
+       "Organizers":"Vennala & Navya",
+       "Organizersnumber":"7864892771",
+       "Organizersmail":"Vennala77@gmail.com",
+       "teamsize":"1",
+       });
+
+db.events.insert({
+        "branchname" : "IT",
+        "eventname" :"Cloud Computing",
+        "description" :"Cloud computing is a general term for anything that involves delivering hosted services over the Internet. These services are broadly divided  into three categories: Infrastructure-as-a-Service (IaaS),Platform-as-a-Service (PaaS) and Software- as-a-Service (SaaS).The name cloud was inspired by the symbol that’s often used to represent the Internet in flowcharts and diagrams:",
+       "time":"08-06-18 , 4:30PM",
+       "venue":"miracle",
+       "RegistrationFee":"1000/-",
+       "Organizers":"Harshini & Navya",
+       "Organizersnumber":"7864897311",
+       "Organizersmail":"Navya77@gmail.com",
+        "teamsize":"1",
+       });
+
+db.events.insert({
+        "branchname" : "IT",
+        "eventname" :"Artificial Intelligence",
+        "description" :"Ever wondered of Driverless cars, brain-machine connectivity, software-driven healthcare, chatbot concierge, intelligence quant machines and robotic process automation??? These are no longer in utopian future, but are rather here and now. Join our Artificial Intelligence and Machine Learning workshop:",
+       "time":"09-06-18 , 9:30AM",
+       "venue":"miracle",
+       "RegistrationFee":"1000/-",
+       "Organizers":"Vennala & Eswar",
+       "Organizersnumber":"7864892991",
+       "Organizersmail":"Eswar77@gmail.com",
+       "teamsize":"1",
+       });
+
+db.events.insert({
+        "branchname" : "EEE",
+        "eventname" :"IOT(Internet of Things)",
+        "description" :" It’s about embedding intelligence so things become smarter & do more than they were proposed to do.This Network of networks extracts and makes sense of data within machines. Keeping all the awesomeness in mind Innovians Technologies has introduced the Internet of things workshop to get you ready for the future:",
+       "time":"09-06-18 , 10:00AM",
+       "venue":"miracle",
+       "RegistrationFee":"1000/-",
+       "Organizers":"Sourav & Abhishek",
+       "Organizersnumber":"7864892771",
+       "Organizersmail":"Sourav77@gmail.com",
+       "teamsize":"1",
+       });
+
+db.events.insert({
+        "branchname" : "EEE",
+        "eventname" :"Automation",
+        "description" :" The main objective of this WORKSHOP is to make the aspiring engineers acquainted with the conceptual as well as practical knowledge of the Industrial Automation & latest technologies being used to achieve industrial automation.The Most Used Guiding Force Behind An Automated Industrial Plant Is A “Programmable Logic Controller” Generally Known As A PLC. PLCs Along With Certain Other Necessary Ingredients Like Sensors, Motors, Actuators, Valves, Conveyors, Boilers, SCADA Systems, Computers & Many More, Makes A Real Automated Manufacturing Plant.",
+       "time":"09-06-18 , 11:00AM",
+       "venue":"miracle",
+       "RegistrationFee":"1000/-",
+       "Organizers":"Bharat & Pavan",
+       "Organizersnumber":"7864892344",
+       "Organizersmail":"Pavan77@gmail.com",
+        "teamsize":"1",
+       });
+
+db.events.insert({
+        "branchname" : "EEE",
+        "eventname" :"Electrical Design Engineering",
+        "description" :" The fortunes of the heavy electrical industry have been closely linked to the development of the power sector in India. The heavy electrical industry has under its purview power generation, transmission, distribution and utilisation equipments. Some of the major areas where these are used include power generation projects, petrochemical, refineries , chemical plants, integrated steel plants, non-ferrous metal units, etc. . The goal is to design safe and dependable processing facilities in a cost effective manner. Therefore, most of the required skills are acquired while on the job, reducing productivity and efficiency:",
+       "time":"09-06-18 , 12:00AM",
+       "venue":"miracle",
+       "RegistrationFee":"1000/-",
+       "Organizers":"Harshini & Navya",
+       "Organizersnumber":"7864892366",
+       "Organizersmail":"Harshini77@gmail.com",
+        "teamsize":"1"
+        });
+
+db.events.insert({
+        "branchname" : "CIVIL",
+        "eventname" :"Bridge Design",
+        "description" : "Bridge Design is a vital topic of study in Civil Engineering. In the Bridge Design Workshop, participants will design and fabricate their own bridge. The bridge model made by participants can take up to 1000 times the self-weight. The workshop includes instruction on the key structural components of Structural engineering and bridge construction – beams, arches, trusses, suspensions, and test for maximum load",
+       "time":"09-06-18 , 1:00PM",
+       "venue":"miracle",
+       "RegistrationFee":"1000/-",
+       "Organizers":"Vennala & Harshini",
+       "Organizersnumber":"7864892316",
+       "Organizersmail":"Vennala77@gmail.com",
+       "teamsize":"1",
+       });
+
+db.events.insert({
+        "branchname" : "CIVIL",
+        "eventname" :"Foundation Analysis",
+        "description" :"It is any civil engineer’s dream to see their structure stand tall and with proper design and analysis it is possible to make buildings extremely strong with its robust “Foundation”. With this in mind we presents this workshop on “Foundation Analysis and Design”. It is evident that foundation is the very important part of a civil engineering project. The objective of the Foundation Analysis workshop is to teach students the appropriate approach towards soil foundation analysis used in construction projects", 
+       "time":"09-06-18 , 2:30PM",
+       "venue":"miracle",
+       "RegistrationFee":"1000/-",
+       "Organizers":"Arjun & Bharat",
+       "Organizersnumber":"7864892313",
+       "Organizersmail":"Arjun 77@gmail.com",
+        "teamsize":"1",
+       });
+
+db.events.insert({
+        "branchname" : "CIVIL",
+        "eventname" :"STADD Pro",
+        "description" :"STAAD Pro is an analysis and design software package for structural engineering, used in performing the analysis and design of a wide variety of types of structures. This implies that it addresses all aspects of structural engineering including model development, verification, analysis, design and review of results. It includes advanced dynamic analysis and push over analysis for wind load and earthquake load",
+       "time":"09-06-18 , 3:00PM",
+       "venue":"miracle",
+       "RegistrationFee":"1000/-",
+       "Organizers":"Pavan & Bharat",
+       "Organizersnumber":"7864892312",
+       "Organizersmail":"Pavan77@gmail.com",
+        "teamsize":"1",
+       });
+
+db.events.insert({
+        "branchname" : "MECH",
+        "eventname" :"AUTOMOBILE MECHANICS & IC ENGINE DESIGN",
+        "description" :" A two days workshop on Automotive Engine Design. All the concepts are explained in detail with the Help of Theory and With Specially Designed  Animations which would help students to visualize Things before practically working on it",
+       "time":"09-06-18 , 3:30PM",
+       "venue":"miracle",
+       "RegistrationFee":"1000/-",
+       "Organizers":"Abhishek & Eswar",
+       "Organizersnumber":"7864892310",
+       "Organizersmail":"Abhishek77@gmail.com",
+       "teamsize":"1",
+       });
+
+db.events.insert({
+        "branchname" : "MECH",
+        "eventname" :"VECHICLE & OVERHAULING",
+        "description" :" This program is conceptualized to impart industrial work flow to students that how automobile components function, how vehicle is conceptualized, designed and manufactured. This program provide a platform for the students which supports their engineering thoughts and  give them a pragmatic experience",
+       "time":"09-06-18 , 4:30PM",
+       "venue":"miracle",
+       "RegistrationFee":"1000/-",
+       "Organizers":"Vennala & Navya",
+       "Organizersnumber":"7864892311",
+       "Organizersmail":"Sourav77@gmail.com",
+       "teamsize":"1",
+});

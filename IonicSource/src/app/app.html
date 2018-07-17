@@ -1,0 +1,52 @@
+<ion-menu [content]="content" id="k">
+  <ion-header>
+    <ion-toolbar>
+      <ion-title>Menu</ion-title>
+    </ion-toolbar>
+  </ion-header>
+
+  <ion-content style="background-image:url('assets/imgs/sidemenu.jpg');background-size:cover">
+    <ion-list style="background-image:url('assets/imgs/sidemenu.jpg');background-size:cover">
+
+
+
+      <button menuClose ion-item *ngFor="let p of pages" (click)="openPage(p)" style="background-image:url('assets/imgs/sidemenu.jpg');background-size:cover">
+       <div class="t"> {{p.title}} </div>
+      </button>
+    
+    </ion-list>
+  </ion-content>
+
+</ion-menu>
+
+<ion-menu [content]="content" id="l" >
+    <ion-header>
+      <ion-toolbar>
+        <ion-title>Menu</ion-title>
+      </ion-toolbar>
+    </ion-header>
+    <ion-content style="background-image:url('assets/imgs/sidemenu.jpg');background-size:cover">
+      <ion-list style="background-image:url('assets/imgs/sidemenu.jpg');background-size:cover">
+  
+          <button menuClose ion-item *ngFor="let p of pag" id="l" (click)="openPage(p)" style="background-image:url('assets/imgs/sidemenu.jpg');background-size:cover">
+            <div class="t"> {{p.title}} </div>
+            </button>
+                    
+      </ion-list>
+    </ion-content>
+  
+  </ion-menu>
+
+
+
+<div *ngIf="showSplash" class="splash">
+  <div class="welcome">
+  <br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  Welcome 
+  </div>
+<div class="spinner">
+  <div class="Fest">Zest</div>
+</div>
+</div>
+
+<!-- Disable swipe-to-go-back because it's poor UX to combine STGB with side menus -->
+<ion-nav [root]="rootPage" #content  ></ion-nav>

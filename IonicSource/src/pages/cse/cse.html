@@ -1,0 +1,96 @@
+<!--
+  Generated template for the CsePage page.
+
+  See http://ionicframework.com/docs/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+<ion-header>
+  <ion-navbar>
+   <ion-title>CSE</ion-title>
+  </ion-navbar>
+
+  <ion-toolbar >
+    <ion-segment [(ngModel)]="items" color="dark">
+      <ion-segment-button value="Technical">
+      <h5 ion-text color="primary">Technical</h5>
+      </ion-segment-button>
+      <ion-segment-button value="Workshop">
+       <h5 ion-text color="primary">Workshop</h5>
+      </ion-segment-button>
+      <ion-segment-button value="Ppt">
+       <h5 ion-text color="primary">Ppt</h5>
+      </ion-segment-button>
+    </ion-segment>
+  </ion-toolbar>
+</ion-header>
+
+<br> <br> <br> <br> <br> <br>
+<ion-content style="background-image:url('assets/imgs/back.jpg');background-size:cover">
+   <div [ngSwitch]="items">
+      <div *ngSwitchCase="'Technical'">
+          <ion-grid>
+              <ion-row>
+                <ion-col col-6>
+                    <ion-thumbnail item-start>
+                         <img src="assets/imgs/hackton1.jpg" (click)="callHackathon()" style="width: 100%;height: 200px;">
+                         <div class="card-title">Hackathon</div>
+                      </ion-thumbnail>
+                </ion-col>
+                <ion-col col-6>
+                    <ion-thumbnail item-start>
+                        <img src="assets/imgs/topcoder1.jpg" (click)="callTopcoder()" style="width: 100%;height: 200px;">
+                        <div class="card-title">Topcoder</div>
+                    </ion-thumbnail>
+                </ion-col>
+              </ion-row>
+              <ion-row>
+                  <ion-col col-6>
+                      <ion-thumbnail item-start>
+                         <img src="assets/imgs/Blind.jpg" (click)="callBlindCoding()" style="width: 100%;height: 200px;">
+                         <div class="card-title">Blind Coding</div>
+                        </ion-thumbnail>
+                  </ion-col>
+                  <ion-col col-6>
+                      <ion-thumbnail item-start>
+                          <img src="assets/imgs/debugging.jpg" (click)="callDebugging()" style="width: 100%;height: 200px;">
+                          <div class="card-title">Debugging</div>
+                        </ion-thumbnail>
+                  </ion-col>
+                </ion-row>
+            </ion-grid>
+
+      </div>
+      <div *ngSwitchCase="'Workshop'">
+       <ion-grid>
+          <ion-row>
+              <ion-col col-6>
+                  <ion-thumbnail item-start>
+                      <img src="assets/imgs/machine learning.jpg" style="width: 100%;height: 200px;"(click)="MACHINE()">
+                      <div class="card-title">Machine Learning</div>
+                    </ion-thumbnail>
+              </ion-col>
+              <ion-col col-6>
+                  <ion-thumbnail item-start>
+                      <img src="assets/imgs/blockchain3.jpg"style="width: 100%;height: 200px;"(click)="BLOCKCHAIN()">  <!--Replace  -->
+                      <div class="card-title">BlockChain</div>
+                    </ion-thumbnail>
+              </ion-col>
+          
+            </ion-row>
+            
+          </ion-grid>
+            
+
+      </div>
+      <div *ngSwitchCase="'Ppt'">
+            <div class="t">
+                <br><br>
+            1.Submit your ABSTRACT to the the mail:<a href="mailto:chandratripurana@gmail.com">chandratripurana@gmail.com</a>
+            <br> 
+            2.Make sure your abstract is 250 words or less<br> 
+            IMPORTANT DATES:
+            Abstract submissions due:  june 9, 2018
+        </div>
+    </div>
+      </div>
+    </ion-content>   

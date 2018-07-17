@@ -1,0 +1,328 @@
+db.events.insert({
+        "branchname" : "CSE",
+        "eventname" : "Hackathon",
+        "description" : "It is a design sprint-like event in which the Participants can  work individually or register as a team works on real world application.The Hackathon would last for 4 hours.Using your technological skill sets and your inquisitive mind, you, along with your team need to solve a problem statement which is based on a real-life scenario in the most efficient way.",
+       "time":"08-06-18 , 9:00AM",
+       "venue":"miracle",
+       "RegistrationFee":"200/-",
+       "Organizers":"Arjun & Pavan",
+       "Organizersnumber":"7864892730",
+       "Organizersmail":"Arjun33@gmail.com",
+       "teamsize":"4"
+});
+
+db.events.insert({
+        "branchname" : "CSE",
+        "eventname" : "Topcoder",
+        "description" : "It  is an event in which the Particiants have to  develop a given set of code.The participants are expected to deliver the code in the most efficient and effective manner within the given time interval.The final worked out code will be judged by a panel of judges arranged  by the organisers and sponsors.",
+       "time":"08-06-18 , 10:00AM",
+       "venue":"miracle",
+       "RegistrationFee":"200/-",
+       "Organizers":"Arjun & Bharat",
+       "Organizersnumber":"7864892731",
+       "Organizersmail":"Bharat34@gmail.com",
+       "teamsize":"4"
+});
+
+db.events.insert({
+        "branchname" : "CSE",
+        "eventname" : "Blind Coding",
+        "description" : "It is an event where the participant is given a code to  perform on a system with screen being off .There is a time limit to the event, and the particpant can only leave the system after he/she finshes the code or if the time's up. finally the codes will be revealed after the times up and the will be judged by a panel of judges arranged  by the organisers and sponsors.",
+       "time":"08-06-18 , 10:30AM",
+       "venue":"miracle",
+       "RegistrationFee":"200/-",
+       "Organizers":"Bharat& Pavan",
+       "Organizersnumber":"7864892732",
+       "Organizersmail":"Pavan32@gmail.com",
+       "teamsize":"4"
+});
+
+db.events.insert({
+        "branchname" : "CSE",
+        "eventname" : "Debugging",
+        "description" : "It is an event in which the Participants work individually to find and resolve the  problems within a computer program that prevent correct operation of /omputer software or a system.The participant can edit the program he/she wishes accordingly to debug the code and fix it.The program will be tested  after the debuging is done by a panel of judges arranged  by the organisers and sponsors.",
+       "time":"08-06-18 , 10:45AM",
+       "venue":"miracle",
+       "RegistrationFee":"200/-",
+       "Organizers":"Eswar & Abhishek",
+       "Organizersnumber":"7864892733",
+       "Organizersmail":"Abhishek33@gmail.com",
+       "teamsize":"4"
+});
+
+db.events.insert({
+        "branchname" : "CIVIL",
+        "eventname" : "Bridge design",
+        "description" : "It is an event in which the Participants can  work individually or register as a team to design a working bridge model .the model could be made with anything the participant wishes irrespective of the material.There will be a series of demonstrations by participants or team in which they present the working conditions of the model they designed and the model will  be tested by a panel of judges arranged  by the organisers and sponsors.",
+       "time":"08-06-18 , 11:00AM",
+       "venue":"miracle",
+       "RegistrationFee":"200/-",
+       "Organizers":"Eswar & Sourav",
+       "Organizersnumber":"7864892734",
+       "Organizersmail":"Eswar33@gmail.com",
+       "teamsize":"4"
+});
+
+db.events.insert({
+        "branchname" : "CIVIL",
+        "eventname" : "Town plan",
+        "description" : "It is an event in which the Participants can  work individually or register as a team to design a working town plan model.the participant is expexted to present a workin model for the town plan which could be used for the betterment of the development.The model could be as specific as the participant wants and could be as precise as needed. There will be a series of demonstrations by participants or team in which they present the working conditions of the model they designed and the model will  be tested by a panel of judges arranged  by the organisers and sponsors.",
+       "time":"08-06-18 , 12:00PM",
+       "venue":"miracle",
+       "RegistrationFee":"200/-",
+       "Organizers":"Sourav & Vennala",
+       "Organizersnumber":"786489235",
+       "Organizersmail":"Sourav35@gmail.com",
+       "teamsize":"4"
+});
+
+db.events.insert({
+        "branchname" : "CIVIL",
+        "eventname" : "Truss",
+        "description" : "It is an event in which the Participants can  work individually or register as a team to design a working truss model.the model could be specifically designed for a particular set of architeture or for a hybrid set of structures.the model will be judged accordingly by a panel of judges arranged  by the organisers and sponsors.",
+       "time":"08-06-18 , 1:00PM",
+       "venue":"miracle",
+       "RegistrationFee":"200/-",
+       "Organizers":"Vennala & Harshini",
+       "Organizersnumber":"786489236",
+       "Organizersmail":"Vennala36@gmail.com",
+       "teamsize":"4"
+});
+db.events.insert({
+        "branchname" : "CIVIL",
+        "eventname" : "Technical Quiz",
+        "description" : " All the teams are tested on their basics in civil engineering. Each team must have two participants.All the teams are restricted to time frame.",
+       "time":"09-06-18 , 1:00PM",
+       "venue":"miracle",
+       "RegistrationFee":"200/-",
+       "Organizers":"Pavan & Eswar",
+       "Organizersnumber":"786489266",
+       "Organizersmail":"Pavan44@gmail.com",
+       "teamsize":"4"
+});
+db.events.insert({
+        "branchname" : "MECH",
+        "eventname" : "Robot Fight",
+        "description" : "It is an event in which the Participants can  work individually or register as a team to design a  fighting robot.the participant to make their robot fight a match against other robots and the last robot standing wins the competion.The battle is finally to be judged by a panel of judges arranged by the organizers and sponsors.",
+       "time":"08-06-18 , 2:00PM",
+       "venue":"miracle",
+       "RegistrationFee":"200/-",
+       "Organizers":"Harshini & Navya",
+       "Organizersnumber":"786489237",
+       "Organizersmail":"Harshini37@gmail.com",
+       "teamsize":"4"
+});
+
+db.events.insert({
+        "branchname" : "MECH",
+        "eventname" : "Internal Combustion Engine",
+        "description" : "It is an event in which the Participants can  work individually or register as a team to work on a faulty combustion engine.the participant will be provided a faulty engine to work on and repair it in the given amount of time. The participant can work on the engine to make it more efficient and effective too.The engine is finally to be judged by a panel of judges arranged  by the organisers and sponsors.",
+       "time":"08-06-18 , 4:00PM",
+       "venue":"miracle",
+       "RegistrationFee":"200/-",
+       "Organizers":"Navya & Eswar",
+       "Organizersnumber":"786489238",
+       "Organizersmail":"Navya38@gmail.com",
+       "teamsize":"4"
+});
+
+db.events.insert({
+        "branchname" : "MECH",
+        "eventname" : "Quadcopter",
+        "description" : "It is an event in which the Participants can  work individually or register as a team to build a quadcopter.the participant is expected to build a quadcopter and add additional features to the quadcopter if possible, the best working copter with all the fancy features are allowed. the Quadcopter is finally to be judged by the  a panel of judges arranged  by the organisers and sponsors.",
+       "time":"08-06-18 , 6:00PM",
+       "venue":"miracle",
+       "RegistrationFee":"200/-",
+       "Organizers":"Navy & Abhishek",
+       "Organizersnumber":"786489239",
+       "Organizersmail":"Abhi77@gmail.com",
+       "teamsize":"4"
+});
+
+db.events.insert({
+        "branchname" : "MECH",
+        "eventname" : "Technical Quiz",
+        "description" : " All the teams are tested on their basics in electrical engineering. Each team must have two participants.All the teams are restricted to time frame.",
+       "time":"09-06-18 , 1:00PM",
+       "venue":"miracle",
+       "RegistrationFee":"200/-",
+       "Organizers":"Pavan & Eswar",
+       "Organizersnumber":"786489266",
+       "Organizersmail":"Pavan44@gmail.com",
+       "teamsize":"4"
+});
+
+
+
+
+
+db.events.insert({
+        "branchname" : "EEE",
+        "eventname" : "Crossword",
+        "description" : " A crossword is a word puzzle that usually takes the form of a square or a rectangular grid of white-and black-shaded squares. The game's goal is to fill the white squares with letters, forming words or phrases, by solving clues, which lead to the answers. In languages that are written left-to-right, the answer words and phrases are placed in the grid from left to right and from top to bottom. The shaded squares are used to separate the words or phrases.the following are the details for registering to crossword..",
+       "time":"09-06-18 , 9:00AM",
+       "venue":"miracle",
+       "RegistrationFee":"200/-",
+       "Organizers":"Bharat & Pavan",
+       "Organizersnumber":"786489288",
+       "Organizersmail":"Bharat55@gmail.com",
+       "teamsize":"4"
+});
+
+
+db.events.insert({
+        "branchname" : "EEE",
+        "eventname" : "Password Cracking",
+        "description" : " Password cracking is the process of recovering passwords from data that have been stored in or transmitted by a computer system. A common approach  is to try guesses repeatedly for the password and check them against an available cryptographic hash of the password.The purpose of password cracking might be to help a user recover a forgotten password to gain unauthorized access to a system, or as a preventive measure by system administrators to check for easily crackable passwords.",
+       "time":"09-06-18 , 11:00AM",
+       "venue":"miracle",
+       "RegistrationFee":"200/-",
+       "Organizers":"Eswar & Arjun",
+       "Organizersnumber":"7864892377",
+       "Organizersmail":"Arjun55@gmail.com",
+       "teamsize":"4"
+});
+
+
+
+
+
+db.events.insert({
+        "branchname" : "EEE",
+        "eventname" : "Technical Quiz",
+        "description" : " All the teams are tested on their basics in electrical engineering. Each team must have two participants.All the teams are restricted to time frame.",
+       "time":"09-06-18 , 1:00PM",
+       "venue":"miracle",
+       "RegistrationFee":"200/-",
+       "Organizers":"Vennala & Eswar",
+       "Organizersnumber":"786489266",
+       "Organizersmail":"Venny44@gmail.com",
+       "teamsize":"4"
+});
+
+db.events.insert({
+        "branchname" : "EEE",
+        "eventname" : "Robotics",
+        "description" : " In this program you will learn how the robot actual functionality works.Learn the core techniques for representing robots that perform physical tasks in the real world.",
+       "time":"09-06-18 , 1:00PM",
+       "venue":"miracle",
+       "RegistrationFee":"1000/-",
+       "Organizers":" Pavan & Arjun",
+       "Organizersnumber":"786489266",
+       "Organizersmail":"Pavan@gmail.com",
+       "teamsize":"4"
+});
+
+
+
+
+
+db.events.insert({
+        "branchname" : "ECE",
+        "eventname" : "Circuitrix",
+        "description" : " In electronic circuits, there are many electronic symbols that are used to represent or identify a basic electronic or electrical device. They are mostly used to draw a circuit diagram and are standardized internationally by the IEEE standard and the British Standard.",
+	"time":"09-06-18 , 2:00PM",
+       "venue":"miracle",
+       "RegistrationFee":"200/-",
+       "Organizers":"Harshini & Pavan",
+       "Organizersnumber":"786489255",
+       "Organizersmail": Harshini34 @gmail.com",
+       "teamsize":"4"
+});
+
+ 
+
+
+db.events.insert({
+        "branchname" : "ECE",
+        "eventna3me" : "Technical Quiz",
+        "description" : "All the teams are tested on their basis in electrical engineering. Each team must have atleast two participants.All the teams are restricted to time frame. ",
+       "time":"09-06-18 , 3:30PM",
+       "venue":"miracle",
+       "RegistrationFee":"200/-",
+       "Organizers":"Sourav & Navya",
+       "Organizersnumber":"7864892311",
+       "Organizersmail":"Sourav77@gmail.com",
+       "teamsize":"4"
+});
+
+db.events.insert({
+        "branchname" : "ECE",
+        "eventname" : "Arduino",
+        "description" : " In electronic circuits there are many electronic symbols that are used to represent or identify a basic electronic or electrical device. They are mostly used to draw a circuit diagram and are standardized internationally by the IEEE standard and the British Standard",
+       "time":"09-06-18  2:00PM",
+       "venue":"miracle",
+       "RegistrationFee":"200/-",
+       "Organizers":"Harshini & Pavan",
+       "Organizersnumber":"786489255",
+       "Organizersmail": Harshini34 @gmail.com",
+       "teamsize":"4"
+});
+
+db.events.insert({
+        "branchname" : "ECE",
+        "eventname" : "Hack",
+        "description" : " In electronic circuits, there are many electronic symbols that are used to represent or identify a basic electronic or electrical device. They are mostly used to draw a circuit diagram and are standardized internationally by the IEEE standard and the British Standard",
+       "time":"09-06-18  2:00PM",
+       "venue":"miracle",
+       "RegistrationFee":"200/-",
+       "Organizers":"Harshini & Pavan",
+       "Organizersnumber":"786489255",
+       "Organizersmail": Harshini34 @gmail.com",
+       "teamsize":"4"
+});
+
+db.events.insert({
+        "branchname" : "IT",
+        "eventname" : "Cyber Security",
+        "description" : "Cybersecurity, computer security or IT security is the protection of computer systems from theft of or damage to their hardware, software or electronic data, as well as from disruption or misdirection of the services they provide.Cybersecurity includes controlling physical access to system hardware, as well as protecting against harm that may be done via network access, malicious data and code injection. ",
+       "time":"09-06-18 , 4:00PM",
+       "venue":"miracle",
+       "RegistrationFee":"200/-",
+       "Organizers":"Vennala & Arjun",
+       "Organizersnumber":"7864892544",
+       "Organizersmail":"arjun66@gmail.com",
+       "teamsize":"4"
+});
+
+
+db.events.insert({
+        "branchname" : "IT",
+        "eventname" : "Technical Quiz",
+        "description" : "All the teams are tested on their basis in electrical engineering. Each team must have atleast two participants.All the teams are restricted to time frame. ",
+       "time":"09-06-18 , 8:00PM",
+       "venue":"miracle",
+       "RegistrationFee":"200/-",
+       "Organizers":"Bharat & Eswar",
+       "Organizersnumber":"786489277",
+       "Organizersmail":"Bharat66@gmail.com",
+       "teamsize":"4"
+});
+
+
+db.events.insert({
+        "branchname" : "IT",
+        "eventname" : "Hackathon",
+        "description" : "It is a design sprint-like event in which the Participants can  work individually or register as a team works on real world application.The Hackathon would last for 4 hours.Using your technological skill sets and your inquisitive mind, you, along with your team need to solve a problem statement which is based on a real-life scenario in the most efficient way.",
+       "time":"08-06-18 , 9:00AM",
+       "venue":"miracle",
+       "RegistrationFee":"200/-",
+       "Organizers":"Arjun & Pavan",
+       "Organizersnumber":"7864892730",
+       "Organizersmail":"Pavan@gmail.com",
+       "teamsize":"4"
+});
+
+
+db.events.insert({
+        "branchname" : "IT",
+        "eventname" : "Debugging",
+        "description" : "It is an event in which the Participants work individually to find and resolve the  problems within a computer program that prevent correct operation of /omputer software or a system.The participant can edit the program he/she wishes accordingly to debug the code and fix it.The program will be tested  after the debuging is done by a panel of judges arranged  by the organisers and sponsors.",
+       "time":"08-06-18 , 10:45AM",
+       "venue":"miracle",
+       "RegistrationFee":"200/-",
+       "Organizers":"Eswar & Abhishek",
+       "Organizersnumber":"7864892733",
+       "Organizersmail":"Abhishek33@gmail.com",
+       "teamsize":"4"
+});

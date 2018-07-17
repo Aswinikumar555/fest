@@ -1,0 +1,79 @@
+<!--
+  Generated template for the TeamregisterPage page.
+
+  See http://ionicframework.com/docs/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+<ion-header>
+
+  <ion-navbar>
+    <ion-title>TeamRegister</ion-title>
+  </ion-navbar>
+
+</ion-header>
+
+
+<ion-content padding>
+
+<ion-list>
+    <ion-label><b>Enter remaining 3 Team member details</b></ion-label>
+    <ion-item>
+        <div>
+            <p>Event</p><br>{{teamevent}}<br>
+        </div>
+    </ion-item>
+    <ion-item>
+    <ion-label floating>Team Name</ion-label>
+    <ion-input type="text"  [(ngModel)]="teamname"></ion-input>
+    </ion-item>
+    <ion-item>
+    <ion-label floating>Team Member 1</ion-label>
+    <ion-input type="text" [(ngModel)]="teammember1name"></ion-input>
+    </ion-item>
+    <ion-item>
+    <ion-label floating>Team Member 1 Email id</ion-label>
+    <ion-input type="email" [(ngModel)]="teammember1email"></ion-input>
+    </ion-item>
+    <ion-item>
+    <ion-label floating>Team Member 1 Mobile</ion-label>
+    <ion-input type="text" [(ngModel)]="teammember1mobile"></ion-input>
+    </ion-item>
+    <ion-item>
+    <ion-label floating>College Name</ion-label>
+    <ion-input type="text" [(ngModel)]="teammember1college"></ion-input>
+    </ion-item>
+    <ion-item>
+    <ion-label floating>Team Member 2</ion-label>
+    <ion-input type="text" [(ngModel)]="teammember2name"></ion-input>
+    </ion-item>
+    <ion-item>
+    <ion-label floating>Team Member 2 Email id</ion-label>
+    <ion-input type="email" [(ngModel)]="teammember2email"></ion-input>
+    </ion-item>
+    <ion-item>
+    <ion-label floating>Team Member 2 Mobile</ion-label>
+    <ion-input type="text" [(ngModel)]="teammember2mobile"></ion-input>
+    </ion-item>
+    <ion-item>
+    <ion-label floating>College Name</ion-label>
+    <ion-input type="text" [(ngModel)]="teammember2college"></ion-input>
+    </ion-item>
+    <ion-item>
+    <ion-label floating>Team Member 3</ion-label>
+    <ion-input type="text" [(ngModel)]="teammember3name"></ion-input>
+    </ion-item>
+    <ion-item>
+    <ion-label floating>Team Member 3 Email id</ion-label>
+    <ion-input type="email" [(ngModel)]="teammember3email"></ion-input>
+    </ion-item>
+    <ion-item>
+    <ion-label floating>Team Member 3 Mobile</ion-label>
+    <ion-input type="text" [(ngModel)]="teammember3mobile"></ion-input>
+    </ion-item>
+    <ion-item>
+    <ion-label floating>College Name</ion-label>
+    <ion-input type="text" [(ngModel)]="teammember3college"></ion-input>
+    </ion-item>
+    <button ion-button round (click)="teamReg()" >Register</button>
+    </ion-list>    
+</ion-content>

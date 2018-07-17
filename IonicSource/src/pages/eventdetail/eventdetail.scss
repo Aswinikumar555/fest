@@ -1,0 +1,44 @@
+page-eventdetail {
+   
+
+  ion-card {
+        position: relative;
+        text-align: center;
+      }
+    .card-title {
+        position: absolute;
+        top: 36%;
+        text-align: center;
+        font-size: 2.0em;
+        width: 90%;
+        font-weight: bold;
+        color: rgb(255, 255, 255);
+      }
+      img{
+        opacity:.5;
+      }
+      p{
+        color:white;
+        font-size:15px;
+      }
+      h5{
+        color:white;
+      }
+      ion-icon{
+        color:white;
+      }
+      label{
+        color:white;
+      }
+      .abc{
+          margin-left:15px;
+          margin-right:15px;
+      }
+    .bg{
+      background-image: url("../assets/imgs/bg1.jpg");
+    background-size: cover;    
+    }
+    span{
+      color:black;
+    }
+}

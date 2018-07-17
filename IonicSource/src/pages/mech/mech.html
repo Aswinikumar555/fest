@@ -1,0 +1,95 @@
+<!--
+  Generated template for the MechPage page.
+
+  See http://ionicframework.com/docs/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+
+
+<ion-header>
+  <ion-navbar text-center>
+    <h4 ion-text style="color:#232425">MECHANICAL</h4>
+  </ion-navbar>
+
+  <ion-toolbar >
+    <ion-segment [(ngModel)]="mech" color="dark">
+      <ion-segment-button value="Technical">
+      <h5 ion-text color="primary">Technical</h5>
+      </ion-segment-button>
+      <ion-segment-button value="Workshop">
+       <h5 ion-text color="primary">Workshop</h5>
+      </ion-segment-button>
+      <ion-segment-button value="Ppt">
+       <h5 ion-text color="primary">Ppt</h5>
+      </ion-segment-button>
+    </ion-segment>
+  </ion-toolbar>
+</ion-header>
+
+
+<br> <br> <br> <br> <br> <br>
+<ion-content style="background-image:url('assets/imgs/back.jpg');background-size:cover">
+   <div [ngSwitch]="mech">
+      <div *ngSwitchCase="'Technical'">
+
+          <ion-grid>
+              <ion-row>
+                <ion-col col-6>
+                    <ion-thumbnail item-start>
+                        <img src="assets/imgs/ROBOTICS.jpg"style="width: 100%;height: 200px;"(click)="robotics()">
+                        <div class="card-title">Robotics</div>
+                      </ion-thumbnail>
+                </ion-col>
+                <ion-col col-6>
+                    <ion-thumbnail item-start>
+                        <img src="assets/imgs/combustion engine.jpg" style="width: 100%;height: 200px;"(click)="ice()">
+                        <div class="card-title">Combustion Engine</div>
+                      </ion-thumbnail>
+                </ion-col>
+              </ion-row>
+
+              <ion-row>
+                <ion-col col-6>
+                    <ion-thumbnail item-start>
+                      <img  src="assets/imgs/technicalquiz.jpg"style="width: 100%;height: 200px;" (click)="tech()">
+                      <div class="card-title">Technical Quiz</div>  
+                    </ion-thumbnail>
+                </ion-col>
+                <ion-col col-6>
+                    <ion-thumbnail item-start>
+                      <img style="width: 100%;height: 200px;" src="assets/imgs/quadcopter.jpg"(click)="quad()">
+                      <div class="card-title">Quadcopter</div>  
+                    </ion-thumbnail>
+                </ion-col>
+              </ion-row>
+            </ion-grid>
+         
+      </div>
+      <div *ngSwitchCase="'Workshop'">
+       <div class = "row">
+              <div class = "col col-6"><img  src="assets/imgs/automative electronics.jpg"style="width: 100%;height: 200px;"(click)="aut()">
+                <div class="card-title">Automative Electronics</div>
+              </div>
+              <div class = "col col-6"><img src="assets/imgs/vehicle overhauling.jpg" style="width: 100%;height: 200px;"(click)="vec()">
+                <div class="card-title">Vehicle Overhauling</div>
+              </div>
+              
+            </div>
+           
+
+      </div>
+      <div *ngSwitchCase="'Ppt'">
+          <div class="t">
+              <br><br>
+          1.Submit your ABSTRACT to the the mail:<a href="mailto:chandratripurana@gmail.com">chandratripurana@gmail.com</a>
+          <br> 
+          2.Make sure your abstract is 250 words or less<br> 
+          IMPORTANT DATES:
+          Abstract submissions due:  june 9, 2018
+      </div>
+
+
+         </div>
+
+      </div>
+    </ion-content>
