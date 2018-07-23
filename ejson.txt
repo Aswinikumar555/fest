@@ -5,9 +5,9 @@ db.events.insert({
        "time":"08-06-18 , 9:00AM",
        "venue":"miracle",
        "RegistrationFee":"200/-",
-       "Organizers":"Arjun & Pavan",
-       "Organizersnumber":"7864892730",
-       "Organizersmail":"Arjun33@gmail.com",
+       "Organizers":"Aswin & Eswar",
+       "Organizersnumber":"7893160049",
+       "Organizersmail":"aswinikumar448@gmail.com",
        "teamsize":"4"
 });
 
@@ -18,9 +18,9 @@ db.events.insert({
        "time":"08-06-18 , 10:00AM",
        "venue":"miracle",
        "RegistrationFee":"200/-",
-       "Organizers":"Arjun & Bharat",
-       "Organizersnumber":"7864892731",
-       "Organizersmail":"Bharat34@gmail.com",
+       "Organizers":"Aswin & Eswar",
+       "Organizersnumber":"7893160049",
+       "Organizersmail":"aswinikumar448@gmail.com",
        "teamsize":"4"
 });
 
@@ -31,9 +31,9 @@ db.events.insert({
        "time":"08-06-18 , 10:30AM",
        "venue":"miracle",
        "RegistrationFee":"200/-",
-       "Organizers":"Bharat& Pavan",
-       "Organizersnumber":"7864892732",
-       "Organizersmail":"Pavan32@gmail.com",
+       "Organizers":"Aswin & Eswar",
+       "Organizersnumber":"7893160049",
+       "Organizersmail":"aswinikumar448@gmail.com",
        "teamsize":"4"
 });
 
@@ -44,23 +44,23 @@ db.events.insert({
        "time":"08-06-18 , 10:45AM",
        "venue":"miracle",
        "RegistrationFee":"200/-",
-       "Organizers":"Eswar & Abhishek",
-       "Organizersnumber":"7864892733",
-       "Organizersmail":"Abhishek33@gmail.com",
+       "Organizers":"Aswin & Eswar",
+       "Organizersnumber":"7893160049",
+       "Organizersmail":"aswinikumar448@gmail.com",
        "teamsize":"4"
 });
 
 db.events.insert({
-        "branchname" : "CIVIL",
-        "eventname" : "Bridge design",
-        "description" : "It is an event in which the Participants can  work individually or register as a team to design a working bridge model .the model could be made with anything the participant wishes irrespective of the material.There will be a series of demonstrations by participants or team in which they present the working conditions of the model they designed and the model will  be tested by a panel of judges arranged  by the organisers and sponsors.",
-       "time":"08-06-18 , 11:00AM",
-       "venue":"miracle",
-       "RegistrationFee":"200/-",
-       "Organizers":"Eswar & Sourav",
-       "Organizersnumber":"7864892734",
-       "Organizersmail":"Eswar33@gmail.com",
-       "teamsize":"4"
+        "branchname": "CIVIL",
+    "eventname": "Bridge design",
+    "description": "Bridge Design is a vital topic of study in Civil Engineering. In the Bridge Design Workshop, participants will design and fabricate their own bridge. The bridge model made by participants can take up to 1000 times the self-weight. The workshop includes instruction on the key structural components of Structural engineering and bridge construction – beams, arches, trusses, suspensions, and test for maximum load",
+    "time": "08-06-18 , 11:00AM",
+    "venue": "miracle",
+    "RegistrationFee": "200/-",
+    "Organizers": "Aswin & eswar",
+    "Organizersnumber": "7893160049",
+    "Organizersmail": "aswinikumar448@gmail.com",
+    "teamsize": "4"
 });
 
 db.events.insert({
@@ -70,9 +70,9 @@ db.events.insert({
        "time":"08-06-18 , 12:00PM",
        "venue":"miracle",
        "RegistrationFee":"200/-",
-       "Organizers":"Sourav & Vennala",
-       "Organizersnumber":"786489235",
-       "Organizersmail":"Sourav35@gmail.com",
+       "Organizers":"Aswin & Eswar",
+       "Organizersnumber":"7893160049",
+       "Organizersmail":"aswinikumar448@gmail.com",
        "teamsize":"4"
 });
 
@@ -83,9 +83,9 @@ db.events.insert({
        "time":"08-06-18 , 1:00PM",
        "venue":"miracle",
        "RegistrationFee":"200/-",
-       "Organizers":"Vennala & Harshini",
-       "Organizersnumber":"786489236",
-       "Organizersmail":"Vennala36@gmail.com",
+       "Organizers":"Aswin & Eswar",
+       "Organizersnumber":"7893160049",
+       "Organizersmail":"aswinikumar448@gmail.com",
        "teamsize":"4"
 });
 db.events.insert({
@@ -95,9 +95,9 @@ db.events.insert({
        "time":"09-06-18 , 1:00PM",
        "venue":"miracle",
        "RegistrationFee":"200/-",
-       "Organizers":"Pavan & Eswar",
-       "Organizersnumber":"786489266",
-       "Organizersmail":"Pavan44@gmail.com",
+       "Organizers":"Aswin & Eswar",
+       "Organizersnumber":"7893160049",
+       "Organizersmail":"aswinikumar448@gmail.com",
        "teamsize":"4"
 });
 db.events.insert({
@@ -107,9 +107,9 @@ db.events.insert({
        "time":"08-06-18 , 2:00PM",
        "venue":"miracle",
        "RegistrationFee":"200/-",
-       "Organizers":"Harshini & Navya",
-       "Organizersnumber":"786489237",
-       "Organizersmail":"Harshini37@gmail.com",
+       "Organizers":"Aswin & Eswar",
+       "Organizersnumber":"7893160049",
+       "Organizersmail":"aswinikumar448@gmail.com",
        "teamsize":"4"
 });
 
@@ -120,9 +120,9 @@ db.events.insert({
        "time":"08-06-18 , 4:00PM",
        "venue":"miracle",
        "RegistrationFee":"200/-",
-       "Organizers":"Navya & Eswar",
-       "Organizersnumber":"786489238",
-       "Organizersmail":"Navya38@gmail.com",
+       "Organizers":"Aswin & Eswar",
+       "Organizersnumber":"7893160049",
+       "Organizersmail":"aswinikumar448@gmail.com",
        "teamsize":"4"
 });
 
@@ -133,9 +133,9 @@ db.events.insert({
        "time":"08-06-18 , 6:00PM",
        "venue":"miracle",
        "RegistrationFee":"200/-",
-       "Organizers":"Navy & Abhishek",
-       "Organizersnumber":"786489239",
-       "Organizersmail":"Abhi77@gmail.com",
+       "Organizers":"Aswin & Eswar",
+       "Organizersnumber":"7893160049",
+       "Organizersmail":"aswinikumar448@gmail.com",
        "teamsize":"4"
 });
 
@@ -146,9 +146,9 @@ db.events.insert({
        "time":"09-06-18 , 1:00PM",
        "venue":"miracle",
        "RegistrationFee":"200/-",
-       "Organizers":"Pavan & Eswar",
-       "Organizersnumber":"786489266",
-       "Organizersmail":"Pavan44@gmail.com",
+       "Organizers":"Aswin & Eswar",
+       "Organizersnumber":"7893160049",
+       "Organizersmail":"aswinikumar448@gmail.com",
        "teamsize":"4"
 });
 
@@ -163,9 +163,9 @@ db.events.insert({
        "time":"09-06-18 , 9:00AM",
        "venue":"miracle",
        "RegistrationFee":"200/-",
-       "Organizers":"Bharat & Pavan",
-       "Organizersnumber":"786489288",
-       "Organizersmail":"Bharat55@gmail.com",
+       "Organizers":"Aswin & Eswar",
+       "Organizersnumber":"7893160049",
+       "Organizersmail":"aswinikumar448@gmail.com",
        "teamsize":"4"
 });
 
@@ -177,9 +177,9 @@ db.events.insert({
        "time":"09-06-18 , 11:00AM",
        "venue":"miracle",
        "RegistrationFee":"200/-",
-       "Organizers":"Eswar & Arjun",
-       "Organizersnumber":"7864892377",
-       "Organizersmail":"Arjun55@gmail.com",
+       "Organizers":"Aswin & Eswar",
+       "Organizersnumber":"7893160049",
+       "Organizersmail":"aswinikumar448@gmail.com",
        "teamsize":"4"
 });
 
@@ -194,9 +194,9 @@ db.events.insert({
        "time":"09-06-18 , 1:00PM",
        "venue":"miracle",
        "RegistrationFee":"200/-",
-       "Organizers":"Vennala & Eswar",
-       "Organizersnumber":"786489266",
-       "Organizersmail":"Venny44@gmail.com",
+       "Organizers":"Aswin & Eswar",
+       "Organizersnumber":"7893160049",
+       "Organizersmail":"aswinikumar448@gmail.com",
        "teamsize":"4"
 });
 
@@ -207,9 +207,9 @@ db.events.insert({
        "time":"09-06-18 , 1:00PM",
        "venue":"miracle",
        "RegistrationFee":"1000/-",
-       "Organizers":" Pavan & Arjun",
-       "Organizersnumber":"786489266",
-       "Organizersmail":"Pavan@gmail.com",
+       "Organizers":"Aswin & Eswar",
+       "Organizersnumber":"7893160049",
+       "Organizersmail":"aswinikumar448@gmail.com",
        "teamsize":"4"
 });
 
@@ -224,9 +224,9 @@ db.events.insert({
 	"time":"09-06-18 , 2:00PM",
        "venue":"miracle",
        "RegistrationFee":"200/-",
-       "Organizers":"Harshini & Pavan",
-       "Organizersnumber":"786489255",
-       "Organizersmail": Harshini34 @gmail.com",
+       "Organizers":"Aswin & Eswar",
+       "Organizersnumber":"7893160049",
+       "Organizersmail":"aswinikumar448@gmail.com",
        "teamsize":"4"
 });
 
@@ -234,16 +234,17 @@ db.events.insert({
 
 
 db.events.insert({
-        "branchname" : "ECE",
-        "eventna3me" : "Technical Quiz",
-        "description" : "All the teams are tested on their basis in electrical engineering. Each team must have atleast two participants.All the teams are restricted to time frame. ",
-       "time":"09-06-18 , 3:30PM",
+	"branchname" : "ECE",
+        "eventname" : "Technical Quiz",
+        "description" : " All the teams are tested on their basics in electrical engineering. Each team must have two participants.All the teams are restricted to time frame.",
+       "time":"09-06-18 , 1:00PM",
        "venue":"miracle",
        "RegistrationFee":"200/-",
-       "Organizers":"Sourav & Navya",
-       "Organizersnumber":"7864892311",
-       "Organizersmail":"Sourav77@gmail.com",
+       "Organizers":"Aswin & Eswar",
+       "Organizersnumber":"7893160049",
+       "Organizersmail":"aswinikumar448@gmail.com",
        "teamsize":"4"
+
 });
 
 db.events.insert({
@@ -253,9 +254,9 @@ db.events.insert({
        "time":"09-06-18  2:00PM",
        "venue":"miracle",
        "RegistrationFee":"200/-",
-       "Organizers":"Harshini & Pavan",
-       "Organizersnumber":"786489255",
-       "Organizersmail": Harshini34 @gmail.com",
+       "Organizers":"Aswin & Eswar",
+       "Organizersnumber":"7893160049",
+       "Organizersmail":"aswinikumar448@gmail.com",
        "teamsize":"4"
 });
 
@@ -266,9 +267,9 @@ db.events.insert({
        "time":"09-06-18  2:00PM",
        "venue":"miracle",
        "RegistrationFee":"200/-",
-       "Organizers":"Harshini & Pavan",
-       "Organizersnumber":"786489255",
-       "Organizersmail": Harshini34 @gmail.com",
+       "Organizers":"Aswin & Eswar",
+       "Organizersnumber":"7893160049",
+       "Organizersmail":"aswinikumar448@gmail.com",
        "teamsize":"4"
 });
 
@@ -279,9 +280,9 @@ db.events.insert({
        "time":"09-06-18 , 4:00PM",
        "venue":"miracle",
        "RegistrationFee":"200/-",
-       "Organizers":"Vennala & Arjun",
-       "Organizersnumber":"7864892544",
-       "Organizersmail":"arjun66@gmail.com",
+       "Organizers":"Aswin & Eswar",
+       "Organizersnumber":"7893160049",
+       "Organizersmail":"aswinikumar448@gmail.com",
        "teamsize":"4"
 });
 
@@ -289,13 +290,13 @@ db.events.insert({
 db.events.insert({
         "branchname" : "IT",
         "eventname" : "Technical Quiz",
-        "description" : "All the teams are tested on their basis in electrical engineering. Each team must have atleast two participants.All the teams are restricted to time frame. ",
-       "time":"09-06-18 , 8:00PM",
+        "description" : " All the teams are tested on their basics in electrical engineering. Each team must have two participants.All the teams are restricted to time frame.",
+       "time":"09-06-18 , 1:00PM",
        "venue":"miracle",
        "RegistrationFee":"200/-",
-       "Organizers":"Bharat & Eswar",
-       "Organizersnumber":"786489277",
-       "Organizersmail":"Bharat66@gmail.com",
+       "Organizers":"Aswin & Eswar",
+       "Organizersnumber":"7893160049",
+       "Organizersmail":"aswinikumar448@gmail.com",
        "teamsize":"4"
 });
 
@@ -307,9 +308,9 @@ db.events.insert({
        "time":"08-06-18 , 9:00AM",
        "venue":"miracle",
        "RegistrationFee":"200/-",
-       "Organizers":"Arjun & Pavan",
-       "Organizersnumber":"7864892730",
-       "Organizersmail":"Pavan@gmail.com",
+       "Organizers":"Aswin & Eswar",
+       "Organizersnumber":"7893160049",
+       "Organizersmail":"aswinikumar448@gmail.com",
        "teamsize":"4"
 });
 
@@ -321,8 +322,8 @@ db.events.insert({
        "time":"08-06-18 , 10:45AM",
        "venue":"miracle",
        "RegistrationFee":"200/-",
-       "Organizers":"Eswar & Abhishek",
-       "Organizersnumber":"7864892733",
-       "Organizersmail":"Abhishek33@gmail.com",
+       "Organizers":"Aswin & Eswar",
+       "Organizersnumber":"7893160049",
+       "Organizersmail":"aswinikumar448@gmail.com",
        "teamsize":"4"
 });

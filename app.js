@@ -12,7 +12,9 @@ var app = express();
 //session
 var session = require('express-session');
 
-mongoose.connect('mongodb://127.0.0.1:27017/CollegeFest');
+//mongoose.connect('mongodb://127.0.0.1:27017/CollegeFest');
+mongoose.connect('mongodb://aswinikumar:aswinikumar555@ds137651.mlab.com:37651/collegefest');
+
 var db=mongoose.connection;
 db.on('error',function(){
   console.log("failed to connect database");

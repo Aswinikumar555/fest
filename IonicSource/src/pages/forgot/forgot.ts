@@ -35,7 +35,7 @@ export class ForgotPage {
       let toast = this.toastCtrl.create({
         message: this.data,
         duration: 2000,
-        position: 'middle'
+        position: 'top'
       });
       toast.present(toast);
       var updated = "Password updated";

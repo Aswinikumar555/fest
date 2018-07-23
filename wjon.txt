@@ -5,10 +5,10 @@ db.events.insert({
        "time":"09-06-18 , 3:30PM",
        "venue":"miracle",
        "RegistrationFee":"1000/-",
-       "Organizers":"Pavan & Harshini",
-       "Organizersnumber":"7865592311",
-       "Organizersmail":"Pavan77@gmail.com",
-        "teamsize":"1",
+       "Organizers":"Aswin & Eswar",
+       "Organizersnumber":"7893160049",
+       "Organizersmail":"aswinikumar448@gmail.com",
+        "teamsize":"1"
        });
 
 db.events.insert({
@@ -18,10 +18,10 @@ db.events.insert({
        "time":"08-06-18 , 10:30PM",
        "venue":"miracle",
        "RegistrationFee":"1000/-",
-       "Organizers":"Abhishek & Navya",
-       "Organizersnumber":"7864292311",
-       "Organizersmail":"Abhishek77@gmail.com",
-       "teamsize":"1",
+       "Organizers":"Aswin & Eswar",
+       "Organizersnumber":"7893160049",
+       "Organizersmail":"aswinikumar448@gmail.com",
+       "teamsize":"1"
        });
 
 db.events.insert({
@@ -31,10 +31,10 @@ db.events.insert({
        "time":"08-06-18 , 11:30AM",
        "venue":"miracle",
        "RegistrationFee":"1000/-",
-       "Organizers":"Vennala & Bharat",
-       "Organizersnumber":"7864552311",
-       "Organizersmail":"Bharat77@gmail.com",
-       "teamsize":"1",
+       "Organizers":"Aswin & Eswar",
+       "Organizersnumber":"7893160049",
+       "Organizersmail":"aswinikumar448@gmail.com",
+       "teamsize":"1"
        });
 
 db.events.insert({
@@ -44,10 +44,10 @@ db.events.insert({
        "time":"08-06-18 , 12:30PM",
        "venue":"miracle",
        "RegistrationFee":"1000/-",
-       "Organizers":"arjun & Eswar",
-       "Organizersnumber":"7864792311",
-       "Organizersmail":"Arjun77@gmail.com",
-       "teamsize":"1", 
+       "Organizers":"Aswin & Eswar",
+       "Organizersnumber":"7893160049",
+       "Organizersmail":"aswinikumar448@gmail.com",
+       "teamsize":"1" 
    });
 
 db.events.insert({
@@ -57,10 +57,10 @@ db.events.insert({
        "time":"08-06-18 , 1:30PM",
        "venue":"miracle",
        "RegistrationFee":"1000/-",
-       "Organizers":"Pavan & Sourav",
-       "Organizersnumber":"7864892311",
-       "Organizersmail":"Pavan77@gmail.com",
-        "teamsize":"1",
+       "Organizers":"Aswin & Eswar",
+       "Organizersnumber":"7893160049",
+       "Organizersmail":"aswinikumar448@gmail.com",
+        "teamsize":"1"
        });
 
 db.events.insert({
@@ -70,10 +70,10 @@ db.events.insert({
        "time":"08-06-18 , 3:30PM",
        "venue":"miracle",
        "RegistrationFee":"1000/-",
-       "Organizers":"Vennala & Navya",
-       "Organizersnumber":"7864892771",
-       "Organizersmail":"Vennala77@gmail.com",
-       "teamsize":"1",
+       "Organizers":"Aswin & Eswar",
+       "Organizersnumber":"7893160049",
+       "Organizersmail":"aswinikumar448@gmail.com",
+       "teamsize":"1"
        });
 
 db.events.insert({
@@ -83,10 +83,10 @@ db.events.insert({
        "time":"08-06-18 , 4:30PM",
        "venue":"miracle",
        "RegistrationFee":"1000/-",
-       "Organizers":"Harshini & Navya",
-       "Organizersnumber":"7864897311",
-       "Organizersmail":"Navya77@gmail.com",
-        "teamsize":"1",
+       "Organizers":"Aswin & Eswar",
+       "Organizersnumber":"7893160049",
+       "Organizersmail":"aswinikumar448@gmail.com",
+        "teamsize":"1"
        });
 
 db.events.insert({
@@ -96,10 +96,10 @@ db.events.insert({
        "time":"09-06-18 , 9:30AM",
        "venue":"miracle",
        "RegistrationFee":"1000/-",
-       "Organizers":"Vennala & Eswar",
-       "Organizersnumber":"7864892991",
-       "Organizersmail":"Eswar77@gmail.com",
-       "teamsize":"1",
+       "Organizers":"Aswin & Eswar",
+       "Organizersnumber":"7893160049",
+       "Organizersmail":"aswinikumar448@gmail.com",
+       "teamsize":"1"
        });
 
 db.events.insert({
@@ -109,10 +109,10 @@ db.events.insert({
        "time":"09-06-18 , 10:00AM",
        "venue":"miracle",
        "RegistrationFee":"1000/-",
-       "Organizers":"Sourav & Abhishek",
-       "Organizersnumber":"7864892771",
-       "Organizersmail":"Sourav77@gmail.com",
-       "teamsize":"1",
+       "Organizers":"Aswin & Eswar",
+       "Organizersnumber":"7893160049",
+       "Organizersmail":"aswinikumar448@gmail.com",
+       "teamsize":"1"
        });
 
 db.events.insert({
@@ -122,10 +122,10 @@ db.events.insert({
        "time":"09-06-18 , 11:00AM",
        "venue":"miracle",
        "RegistrationFee":"1000/-",
-       "Organizers":"Bharat & Pavan",
-       "Organizersnumber":"7864892344",
-       "Organizersmail":"Pavan77@gmail.com",
-        "teamsize":"1",
+       "Organizers":"Aswin & Eswar",
+       "Organizersnumber":"7893160049",
+       "Organizersmail":"aswinikumar448@gmail.com",
+        "teamsize":"1"
        });
 
 db.events.insert({
@@ -135,9 +135,9 @@ db.events.insert({
        "time":"09-06-18 , 12:00AM",
        "venue":"miracle",
        "RegistrationFee":"1000/-",
-       "Organizers":"Harshini & Navya",
-       "Organizersnumber":"7864892366",
-       "Organizersmail":"Harshini77@gmail.com",
+       "Organizers":"Aswin & Eswar",
+       "Organizersnumber":"7893160049",
+       "Organizersmail":"aswinikumar448@gmail.com",
         "teamsize":"1"
         });
 
@@ -148,23 +148,23 @@ db.events.insert({
        "time":"09-06-18 , 1:00PM",
        "venue":"miracle",
        "RegistrationFee":"1000/-",
-       "Organizers":"Vennala & Harshini",
-       "Organizersnumber":"7864892316",
-       "Organizersmail":"Vennala77@gmail.com",
-       "teamsize":"1",
+       "Organizers":"Aswin & Eswar",
+       "Organizersnumber":"7893160049",
+       "Organizersmail":"aswinikumar448@gmail.com",
+       "teamsize":"1"
        });
 
 db.events.insert({
-        "branchname" : "CIVIL",
-        "eventname" :"Foundation Analysis",
-        "description" :"It is any civil engineer’s dream to see their structure stand tall and with proper design and analysis it is possible to make buildings extremely strong with its robust “Foundation”. With this in mind we presents this workshop on “Foundation Analysis and Design”. It is evident that foundation is the very important part of a civil engineering project. The objective of the Foundation Analysis workshop is to teach students the appropriate approach towards soil foundation analysis used in construction projects", 
-       "time":"09-06-18 , 2:30PM",
-       "venue":"miracle",
-       "RegistrationFee":"1000/-",
-       "Organizers":"Arjun & Bharat",
-       "Organizersnumber":"7864892313",
-       "Organizersmail":"Arjun 77@gmail.com",
-        "teamsize":"1",
+        "branchname": "CIVIL",
+    "eventname": "Foundation Analysis",
+    "description": "It is any civil engineer\u2019s dream to see their structure stand tall and with proper design and analysis it is possible to make buildings extremely strong with its robust \u201cFoundation\u201d. With this in mind we presents this workshop on \u201cFoundation Analysis and Design\u201d. It is evident that foundation is the very important part of a civil engineering project. The objective of the Foundation Analysis workshop is to teach students the appropriate approach towards soil foundation analysis used in construction projects",
+    "time": "09-06-18 , 2:30PM",
+    "venue": "miracle",
+    "RegistrationFee": "1000/-",
+    "Organizers": "Aswin & Eswar",
+    "Organizersnumber": "7893160049",
+    "Organizersmail": "aswinikumar448@gmail.com",
+    "teamsize": "1"
        });
 
 db.events.insert({
@@ -174,10 +174,10 @@ db.events.insert({
        "time":"09-06-18 , 3:00PM",
        "venue":"miracle",
        "RegistrationFee":"1000/-",
-       "Organizers":"Pavan & Bharat",
-       "Organizersnumber":"7864892312",
-       "Organizersmail":"Pavan77@gmail.com",
-        "teamsize":"1",
+       "Organizers":"Aswin & Eswar",
+       "Organizersnumber":"7893160049",
+       "Organizersmail":"aswinikumar448@gmail.com",
+        "teamsize":"1"
        });
 
 db.events.insert({
@@ -187,10 +187,10 @@ db.events.insert({
        "time":"09-06-18 , 3:30PM",
        "venue":"miracle",
        "RegistrationFee":"1000/-",
-       "Organizers":"Abhishek & Eswar",
-       "Organizersnumber":"7864892310",
-       "Organizersmail":"Abhishek77@gmail.com",
-       "teamsize":"1",
+       "Organizers":"Aswin & Eswar",
+       "Organizersnumber":"7893160049",
+       "Organizersmail":"aswinikumar448@gmail.com",
+       "teamsize":"1"
        });
 
 db.events.insert({
@@ -200,8 +200,8 @@ db.events.insert({
        "time":"09-06-18 , 4:30PM",
        "venue":"miracle",
        "RegistrationFee":"1000/-",
-       "Organizers":"Vennala & Navya",
-       "Organizersnumber":"7864892311",
-       "Organizersmail":"Sourav77@gmail.com",
-       "teamsize":"1",
+       "Organizers":"Aswin & Eswar",
+       "Organizersnumber":"7893160049",
+       "Organizersmail":"aswinikumar448@gmail.com",
+       "teamsize":"1"
 });

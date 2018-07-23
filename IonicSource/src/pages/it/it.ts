@@ -33,7 +33,7 @@ export class ItPage {
   Technical (){
     this.navCtrl.push(EventdetailPage, {
           branchname: "IT",
-          eventname: " Technical Quiz",
+          eventname: "Technical Quiz",
           imagepath: "assets/imgs/technicalquiz.jpg"
       });     
   }

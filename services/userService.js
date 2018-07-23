@@ -46,12 +46,17 @@ var registerToApp=function(obj,res){
         
                     var transporter = nodemailer.createTransport({
                         service: 'gmail',
+                        secure:false,
+                        port:25,
                         auth: {
                           user: 'zestmiracle@gmail.com',
                           pass: 'AABEHNPSV'
+                        },
+                        tls:{
+                            rejectUnauthorized: false
                         }
                       });
-                      
+                                  
                       var mailOptions = {
                         from: 'zestmiracle@gmail.com',
                         to: obj.email,
@@ -90,11 +95,16 @@ var resetPassword = function(obj,res){
                 
                     var transporter = nodemailer.createTransport({
                         service: 'gmail',
+                        secure:false,
+                        port:25,
                         auth: {
-                          user: 'zestmiracle@gmail.com',
-                          pass: 'AABEHNPSV'
+                            user: 'zestmiracle@gmail.com',
+                            pass: 'AABEHNPSV'
+                        },
+                        tls:{
+                            rejectUnauthorized: false
                         }
-                      });
+                        });
                       
                       var mailOptions = {
                         from: 'zestmiracle@gmail.com',
@@ -205,9 +215,14 @@ var registerEvent=function(obj,res){
         })
         var transporter = nodemailer.createTransport({
             service: 'gmail',
+            secure:false,
+            port:25,
             auth: {
               user: 'zestmiracle@gmail.com',
               pass: 'AABEHNPSV'
+            },
+            tls:{
+                rejectUnauthorized: false
             }
           });
           
@@ -220,9 +235,9 @@ var registerEvent=function(obj,res){
           
           transporter.sendMail(mailOptions, function(error, info){
             if (error) {
-              //console.log(error);
+              console.log(error);
             } else {
-              //console.log('Email sent: ' + info.response);
+              console.log('Email sent: ' + info.response);
             }
           });
         }
@@ -325,11 +340,17 @@ var teamRegister = function(obj,res){
                     
                     var transporter = nodemailer.createTransport({
                         service: 'gmail',
+                        secure:false,
+                        port:25,
                         auth: {
                           user: 'zestmiracle@gmail.com',
                           pass: 'AABEHNPSV'
+                        },
+                        tls:{
+                            rejectUnauthorized: false
                         }
                       });
+            
                       
                       var mailOptions = {
                         from: 'zestmiracle@gmail.com',

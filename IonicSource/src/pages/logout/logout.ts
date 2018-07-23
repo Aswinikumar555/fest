@@ -25,7 +25,7 @@ export class LogoutPage {
       let toast = this.toastCtrl.create({
         message: res,
         duration: 2000,
-        position: 'middle'
+        position: 'top'
       });
   
       toast.present(toast);
